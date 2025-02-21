@@ -36,7 +36,7 @@ public class possibleworks {
 
             // Compute constant term using Lagrange interpolation
             BigInteger c = lagrangeInterpolation(selectedPoints);
-            System.out.println("Secret Constant (c): " + c);
+            System.out.println("Constant (c): " + c);
 
         } catch (Exception e) {
             e.printStackTrace();
